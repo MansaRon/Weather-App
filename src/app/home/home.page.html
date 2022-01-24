@@ -1,0 +1,46 @@
+<ion-header class="ion-no-border" [translucent]="true">
+  <ion-toolbar class="ion-padding-start ion-padding-end ion-padding-top">
+    <ion-icon name="menu-outline" slot="start"></ion-icon>
+    <ion-title class="ion-padding-top">Weather Forecast</ion-title>
+    <span slot="end">
+      <ion-icon name="notification-outline"></ion-icon>
+      <ion-badge>&nbsp;</ion-badge>
+    </span>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <h4 class="location">Pretoria, South Africa</h4>
+  <div class="main-info">
+    <div class="imgClass"></div>
+    <h5>Partly Cloudy</h5>
+    <h1>25°</h1>
+  </div>
+
+  <div class="other-info ion-padding">
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Wind</h5>
+        <h2>N 7 km/h</h2>
+      </div>
+    </ion-card>
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Humidity</h5>
+        <h2>58%</h2>
+      </div>
+    </ion-card>
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Rain</h5>
+        <h2>10%</h2>
+      </div>
+    </ion-card>
+    <ion-card class="ion-padding">
+      <div class="info">
+        <h5>Feel like</h5>
+        <h2>35°</h2>
+      </div>
+    </ion-card>
+  </div>
+</ion-content>

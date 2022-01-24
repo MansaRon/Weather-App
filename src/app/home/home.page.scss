@@ -1,0 +1,98 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ion-header {
+  ion-toolbar {
+    background: #e5f0fc;
+
+    ion-icon {
+      font-size: 1.4rem;
+    }
+
+    ion-title {
+      font-size: 1.2rem;
+    }
+
+    ion-badge {
+      position: relative;
+      right: 1.3em;
+      top: -0.6em;
+      background: #f8ab1c;
+      padding-right: 0px;
+      width: 9px;
+      height: 9px;
+    }
+
+  }
+}
+
+ion-content {
+  .main-info {
+    // background-image: url('../../assets/icon/weather.jpg');
+    // height: 54em;
+    // top: 0em;
+    // position: relative;
+  }
+
+  h4.location {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #9ca5ba;
+    text-align: center;
+  }
+
+  .main-info {
+    text-align: center;
+    margin-top: 4em;
+
+    .imgClass {
+      background-image: url('../../assets/icon/clouds.jpg');
+      height: 28em;
+      background-repeat: round;
+    }
+
+    h5 {
+      margin-top: 1em;
+      color: #9ca5ba;
+      font-size: 1em;
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 5em;
+    }
+  }
+
+  .other-info {
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-top: 2em;
+
+    ion-card {
+      display: inline-block;
+      min-width: 150px;
+      scroll-behavior: smooth;
+      margin: 0;
+      margin-right: 15px;
+
+      .info {
+        padding-right: 3em;
+        margin-top: 2em;
+
+        h5 {
+          font-size: 1em;
+          font-weight: bold;
+          color: #9ca5ba;
+          margin-bottom: 3px;
+        }
+        h3 {
+          font-size: 1.3em;
+          font-weight: bold;
+          color: #434343;
+        }
+      }
+    }
+  }
+
+}
