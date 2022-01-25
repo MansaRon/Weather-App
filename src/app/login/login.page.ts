@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { getAuth, signInWithEmailAndPassword } from 'firebase/auth';
+import { Services } from '../services/services';
 
 @Component({
   selector: 'app-login',
@@ -13,7 +14,8 @@ export class LoginPage implements OnInit {
 
   constructor(private router: Router) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+  }
 
   public login() {
     const auth = getAuth();
@@ -32,4 +34,6 @@ export class LoginPage implements OnInit {
         console.log(errorMessage);
       });
   }
+
+
 }
