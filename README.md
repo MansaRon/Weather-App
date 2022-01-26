@@ -7,7 +7,7 @@ Description:
 A simple weather application that signs a user up, logs them in & views the weather details. 
 You can use the application to view high, low and wind speed too.
 
-Using an open source endpoint from https://openweathermap.org/ to retrieve weahter information.
+Using an open source endpoint from https://openweathermap.org/ to retrieve weather information.
 
 Prerequisites:
 
